@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  padding: 15px;
+}
+
+.closeButton {
+  background-color: #ffdead1a;
+  float: right;
+  border-radius: 8px;
+  color: white;
+}
+
+.closeButton:hover {
+  background-color: #d2d2d285;
+  cursor: pointer;
+}
+
+.productButton {
+  width: 100px;
+  margin: 10px;
+  color: white;
+  padding: 10px;
+  border-radius: 24px;
+  background-color: #282c34;
+  transition: transform 0.2s;
+}
+
+.productButton:hover {
+  background-color: #dfdfdf75;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.shoppingList {
+  width: 250px;
+  margin: 10px auto;
+  color: #eaeaea;
+  background-color: #282c34;
+  padding: 15px;
+  border-bottom: 1px solid white;
+}
